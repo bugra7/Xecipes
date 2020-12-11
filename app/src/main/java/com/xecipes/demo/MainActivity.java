@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
         croppedImages.add(cropImage(selectedImageBitmap,width*5/100,height*25/100,width*50/100,height*75/100));
         croppedImages.add(cropImage(selectedImageBitmap,width*50/100,height*25/100,width*95/100,height*75/100));
         croppedImages.add(cropImage(selectedImageBitmap,width*25/100,height*5/100,width*75/100,height*50/100));
-        croppedImages.add(cropImage(selectedImageBitmap,width*25/100,height*5/100,width*75/100,height*50/100));
+        croppedImages.add(cropImage(selectedImageBitmap,width*25/100,height*50/100,width*75/100,height*95/100));
 
         return croppedImages;
     }
